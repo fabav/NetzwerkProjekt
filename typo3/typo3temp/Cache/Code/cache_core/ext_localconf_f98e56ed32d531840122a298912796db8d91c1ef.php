@@ -819,6 +819,21 @@ $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['t3lib/class.t3lib_userauth.php']['log
 
 
 /**
+ * Extension: feedit
+ * File: C:/xampp/htdocs/NetzwerkProjekt/typo3/typo3/sysext/feedit/ext_localconf.php
+ */
+
+$_EXTKEY = 'feedit';
+$_EXTCONF = $GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf'][$_EXTKEY];
+
+
+defined('TYPO3_MODE') or die();
+
+// Register the edit panel view.
+$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['typo3/classes/class.frontendedit.php']['edit'] = \TYPO3\CMS\Feedit\FrontendEditPanel::class;
+
+
+/**
  * Extension: felogin
  * File: C:/xampp/htdocs/NetzwerkProjekt/typo3/typo3/sysext/felogin/ext_localconf.php
  */

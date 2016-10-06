@@ -1,0 +1,20 @@
+#featured-wrapper
+{
+	padding: 10em 0em;
+}
+#header-wrapper {
+	padding: 5em 0em 0em 0em;	
+}
+
+#logo {
+	padding: 5em 0em;
+}
+
+#slider
+{
+	margin: 0em auto 0em auto;
+	width: 1200px;
+}
+.container {
+	width: 1200px;
+}

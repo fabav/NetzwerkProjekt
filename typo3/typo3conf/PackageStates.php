@@ -144,6 +144,12 @@ return [
             'packagePath' => 'typo3/sysext/cshmanual/',
             'suggestions' => [],
         ],
+        'feedit' => [
+            'composerName' => 'typo3/cms-feedit',
+            'state' => 'active',
+            'packagePath' => 'typo3/sysext/feedit/',
+            'suggestions' => [],
+        ],
         'felogin' => [
             'composerName' => 'typo3/cms-felogin',
             'state' => 'active',
@@ -256,12 +262,6 @@ return [
             'composerName' => 'typo3/cms-dbal',
             'state' => 'inactive',
             'packagePath' => 'typo3/sysext/dbal/',
-            'suggestions' => [],
-        ],
-        'feedit' => [
-            'composerName' => 'typo3/cms-feedit',
-            'state' => 'inactive',
-            'packagePath' => 'typo3/sysext/feedit/',
             'suggestions' => [],
         ],
         'filemetadata' => [
