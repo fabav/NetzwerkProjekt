@@ -114,6 +114,12 @@ return [
             'packagePath' => 'typo3/sysext/aboutmodules/',
             'suggestions' => [],
         ],
+        'adodb' => [
+            'composerName' => 'typo3/cms-adodb',
+            'state' => 'active',
+            'packagePath' => 'typo3/sysext/adodb/',
+            'suggestions' => [],
+        ],
         'backend' => [
             'composerName' => 'typo3/cms-backend',
             'state' => 'active',
@@ -142,6 +148,12 @@ return [
             'composerName' => 'typo3/cms-cshmanual',
             'state' => 'active',
             'packagePath' => 'typo3/sysext/cshmanual/',
+            'suggestions' => [],
+        ],
+        'css_styled_content' => [
+            'composerName' => 'typo3/cms-css-styled-content',
+            'state' => 'active',
+            'packagePath' => 'typo3/sysext/css_styled_content/',
             'suggestions' => [],
         ],
         'feedit' => [
@@ -244,18 +256,6 @@ return [
             'composerName' => 'typo3/cms-viewpage',
             'state' => 'active',
             'packagePath' => 'typo3/sysext/viewpage/',
-            'suggestions' => [],
-        ],
-        'adodb' => [
-            'composerName' => 'typo3/cms-adodb',
-            'state' => 'inactive',
-            'packagePath' => 'typo3/sysext/adodb/',
-            'suggestions' => [],
-        ],
-        'css_styled_content' => [
-            'composerName' => 'typo3/cms-css-styled-content',
-            'state' => 'inactive',
-            'packagePath' => 'typo3/sysext/css_styled_content/',
             'suggestions' => [],
         ],
         'dbal' => [
