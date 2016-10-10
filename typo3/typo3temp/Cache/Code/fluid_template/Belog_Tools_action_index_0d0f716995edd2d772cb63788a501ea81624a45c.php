@@ -1,5 +1,5 @@
 <?php
-class FluidCache_Form_Frontend_layout_Default_6079ff783e38b32d81ba861623f96484884e18c3 extends \TYPO3\CMS\Fluid\Core\Compiler\AbstractCompiledTemplate {
+class FluidCache_Belog_Tools_action_index_0d0f716995edd2d772cb63788a501ea81624a45c extends \TYPO3\CMS\Fluid\Core\Compiler\AbstractCompiledTemplate {
 
 public function getVariableContainer() {
 	// @todo
@@ -23,10 +23,9 @@ $currentVariableContainer = $renderingContext->getTemplateVariableContainer();
 
 // Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper
 $arguments0 = array();
-$arguments0['section'] = 'main';
-$arguments0['partial'] = NULL;
-$arguments0['arguments'] = array (
-);
+$arguments0['partial'] = 'Content';
+$arguments0['arguments'] = $currentVariableContainer->getOrNull('_all');
+$arguments0['section'] = NULL;
 $arguments0['optional'] = false;
 $renderChildrenClosure1 = function() {return NULL;};
 
@@ -36,4 +35,4 @@ return TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments0, $
 
 
 }
-#1476134818    1180      
+#1476135500    1214      
