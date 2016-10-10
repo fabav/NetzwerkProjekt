@@ -307,7 +307,7 @@ ul.contact li a.icon-rss:before
 {
 	display: inline-block;
 	padding: 1.3em 3em;
-	background: #ffb400;
+	background: #000080;
 	-moz-transition: opacity 0.25s ease-in-out;
 	-webkit-transition: opacity 0.25s ease-in-out;
 	-o-transition: opacity 0.25s ease-in-out;
@@ -367,7 +367,7 @@ ul.contact li a.icon-rss:before
 	#header-wrapper
 	{
 		overflow: hidden;
-		background: #ffb400;
+		background: #000080;
 	}
 
 	#header
@@ -470,7 +470,7 @@ ul.contact li a.icon-rss:before
 	#menu .current_page_item a
 	{
 		color: #FFF;
-		border-bottom: 5px solid #FFB400;
+		border-bottom: 5px solid #000080;
 	}
 
 /*********************************************************************************/
@@ -565,7 +565,7 @@ div.csc-mailform li label {
 label em, legend em {
 	display: inline;
 	margin-left: 3px;
-	color: #FFB400;
+	color: #000080;
 	font-weight: bold;
 	
 }
@@ -1008,7 +1008,7 @@ label em, legend em {
 	border: none;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	background: #ffb400;
+	background: #000080;
 	-moz-transition: opacity 0.25s ease-in-out;
 	-webkit-transition: opacity 0.25s ease-in-out;
 	-o-transition: opacity 0.25s ease-in-out;
@@ -1034,7 +1034,7 @@ label em, legend em {
 	width: 120px;
 	height: 80px;
 	line-height: 80px;
-	background: #ffb400;
+	background: #000080;
 	position: relative;
 	text-align: center;
 	color: #FFF;
@@ -1049,7 +1049,7 @@ label em, legend em {
 	height: 0;
 	border-left: 60px solid transparent;
 	border-right: 60px solid transparent;
-	border-bottom: 30px solid #ffb400;
+	border-bottom: 30px solid #000080;
 }
 .hexagon:after {
 	content: "";
@@ -1060,7 +1060,7 @@ label em, legend em {
 	height: 0;
 	border-left: 60px solid transparent;
 	border-right: 60px solid transparent;
-	border-top: 30px solid #ffb400;
+	border-top: 30px solid #000080;
 }
 
 #portfolio
