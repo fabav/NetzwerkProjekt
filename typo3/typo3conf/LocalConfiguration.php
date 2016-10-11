@@ -5,6 +5,7 @@ return [
         'explicitADmode' => 'explicitAllow',
         'installToolPassword' => '$P$CEmLj4Ki3Ju4aP9GZG4NcceDCG0Gfq.',
         'loginSecurityLevel' => 'rsa',
+        'versionNumberInFilename' => '0',
     ],
     'DB' => [
         'database' => 'fabiobaviera',
@@ -14,6 +15,8 @@ return [
         'username' => 'root',
     ],
     'EXT' => [
+        'allowGlobalInstall' => '1',
+        'allowSystemInstall' => '1',
         'extConf' => [
             'adodb' => 'a:0:{}',
             'css_styled_content' => 'a:1:{s:32:"loadContentElementWizardTsConfig";s:1:"1";}',

@@ -377,7 +377,7 @@ ul.contact li a.icon-rss:before
 #triangle-up {
 	margin: 0 auto;
 	width: 0;
-	height: 0;
+	height: 70px;
 	border-left: 60px solid transparent;
 	border-right: 60px solid transparent;
 	border-bottom: 30px solid #3D3D3D;
