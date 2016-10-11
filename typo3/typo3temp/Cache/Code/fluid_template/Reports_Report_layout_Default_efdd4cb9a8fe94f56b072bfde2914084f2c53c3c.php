@@ -1,5 +1,5 @@
 <?php
-class FluidCache_Form_Frontend_layout_Default_6079ff783e38b32d81ba861623f96484884e18c3 extends \TYPO3\CMS\Fluid\Core\Compiler\AbstractCompiledTemplate {
+class FluidCache_Reports_Report_layout_Default_efdd4cb9a8fe94f56b072bfde2914084f2c53c3c extends \TYPO3\CMS\Fluid\Core\Compiler\AbstractCompiledTemplate {
 
 public function getVariableContainer() {
 	// @todo
@@ -23,7 +23,7 @@ $currentVariableContainer = $renderingContext->getTemplateVariableContainer();
 
 // Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper
 $arguments0 = array();
-$arguments0['section'] = 'main';
+$arguments0['section'] = 'content';
 $arguments0['partial'] = NULL;
 $arguments0['arguments'] = array (
 );
@@ -36,4 +36,4 @@ return TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments0, $
 
 
 }
-#1476193562    1180      
+#1476196308    1184      
